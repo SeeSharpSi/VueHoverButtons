@@ -86,11 +86,13 @@ export default {
   opacity: 0;
 }
 .wrapper {
+  display: flex;
   overflow: hidden;
   padding: 0;
   margin: 0;
   height: 100vh;
   width: 100vw;
+  justify-content: center;
 }
 .boxes {
   --mouse-x: -1000px;
@@ -98,6 +100,7 @@ export default {
   display: flex;
   gap: 8px;
   max-width: 916px;
+  max-height: 316px;
   flex-wrap: wrap;
   position: relative;
   margin: 0;
@@ -109,6 +112,7 @@ export default {
   border-radius: 10px;
   aspect-ratio: 1;
   width: 300px;
+  height: 300px;
   padding: 0;
   margin: 0;
   opacity: 1;
@@ -133,7 +137,7 @@ export default {
   aspect-ratio: 1;
   background: rgb(0, 0, 0);
   width: calc(100% - 3px);
-  opacity: 0.8;
+  opacity: 0.7;
   margin: auto;
 }
 </style>
