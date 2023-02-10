@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FlexMenu />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FlexMenu from "./components/FlexMenu.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { FlexMenu },
+};
 </script>
 
 <style>

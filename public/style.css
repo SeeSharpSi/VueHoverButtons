@@ -1,0 +1,14 @@
+body {
+  background: 32px 32px / calc(2 * 32px) calc(2 * 32px)
+      conic-gradient(at calc(500% / 6) 50%, #362839 25%, #0000 0),
+    0 0 / calc(2 * 32px) calc(2 * 32px)
+      conic-gradient(at calc(500% / 6) 50%, #362839 25%, #0000 0),
+    32px 32px / calc(2 * 32px) calc(2 * 32px)
+      conic-gradient(at calc(200% / 3) 50%, #382a3b 25%, #0000 0),
+    0 0 / calc(2 * 32px) calc(2 * 32px)
+      conic-gradient(at calc(200% / 3) 50%, #382a3b 25%, #0000 0),
+    repeating-conic-gradient(#362839 0 25%, #0000 0 50%) 0 0 / calc(2 * 32px)
+      calc(2 * 32px),
+    linear-gradient(#362839 calc(100% / 3), #382a3b 0 calc(200% / 3), #362839 0)
+      0 0/32px 32px;
+}
