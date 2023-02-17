@@ -97,11 +97,12 @@ export default {
 .boxes {
   --mouse-x: -1000px;
   --mouse-y: -1000px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 8px;
   max-width: 916px;
   max-height: 316px;
-  flex-wrap: wrap;
   position: relative;
   margin: 0;
   padding: 0;
@@ -112,9 +113,8 @@ export default {
   border-radius: 10px;
   aspect-ratio: 1;
   width: 300px;
-  height: 300px;
   padding: 0;
-  margin: 0;
+  margin: auto;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.145);
 }
@@ -139,5 +139,10 @@ export default {
   width: calc(100% - 3px);
   opacity: 0.7;
   margin: auto;
+}
+
+.box:active {
+  width: 297px;
+  background-color: rgb(123, 123, 123);
 }
 </style>

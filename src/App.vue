@@ -1,5 +1,5 @@
 <template>
-  <FlexMenu />
+  <FlexMenu class="menu" />
 </template>
 
 <script>
@@ -19,5 +19,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.menu {
+  width: 916px;
+  height: 316px;
 }
 </style>
