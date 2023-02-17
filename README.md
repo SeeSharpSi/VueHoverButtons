@@ -4,6 +4,9 @@
 ```
 npm install
 ```
+```
+npm install vue@3.2.47
+```
 
 ### Compiles and hot-reloads for development
 ```
